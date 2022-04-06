@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n, resultado=0,dividir=0;
+    cout<<" Digite la cantidad de elementos N: "; cin>>n;
+    for(int i=1,j=n;i<=n || j>=1;i++,j--){
+    cout<<i<<" -- "<<j<<" | ";
+    resultado= resultado+i+j;
+    dividir=resultado/2;
+    }
+ cout<<endl;
+//for(int j=n;j>=1;j--)
+//{cout<<j;
+  //  dato2=j;
+//}
+  cout<<"La suma total es: "<<dividir;
+    return 0;
+}
